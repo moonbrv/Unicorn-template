@@ -1,0 +1,77 @@
+.portfolio {
+	text-align: center;
+	overflow: hidden;
+	&__headline {
+		font-size: 27px;
+		font-weight: 700;
+		line-height: 34px;
+		margin: 0;
+		padding: 40px 0 18px;
+		@media (min-width: $smscr) {
+			padding: 60px 0 28px;
+		}
+		@media (min-width: $mdscr) {
+			padding: 70px 0 28px;
+		}
+		@media (min-width: $lgscr) {
+			padding: 108px 0 38px;
+		}
+	}
+	&__description {
+		max-width: 770px;
+		margin: 0 auto;
+		padding: 0 0 45px 0;
+		&:after {
+			content: '';
+			display: block;
+			width: 75px;
+			height: 7px;
+			background-color: #e64a19;
+			margin: 18px auto 0;
+			@media (min-width: $mdscr) {
+			margin-top: 48px;
+			}
+		}
+	}
+}
+
+
+.portfolio-filter {
+	padding: 0 4px 15px;
+	display: inline-block;
+	&:hover,
+	&:focus {
+		cursor: pointer;
+		color: #e64a19;
+	}
+		@media (min-width: $smscr) {
+			padding: 0 8px 25px;
+		}
+		@media (min-width: $mdscr) {
+			padding: 0 12px 35px;
+		}
+		@media (min-width: $lgscr) {
+			padding: 0 12px 45px;
+		}
+}
+
+.portfolio-item {
+	display: block;
+	&__img {
+		width: calc(440px * 0.6);
+		height: calc(359px * 0.6);
+		@media (min-width: $smscr) {
+			width: calc(440px * 0.7);
+			height: calc(359px * 0.7);
+		}
+		@media (min-width: $mdscr) {
+			width: calc(440px * 0.8);
+			height: calc(359px * 0.8);
+		}
+		@media (min-width: $lgscr) {
+			width: 440px;
+			height: 359px;
+		}
+	}
+}
+

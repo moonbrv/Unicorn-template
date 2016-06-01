@@ -1,0 +1,15 @@
+@mixin no-dec-link($color) {
+	text-decoration: none;
+	color: $color;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $color;
+	}
+}
+
+@mixin bold-upper($weight, $color: $txt-dark) {
+	color: $color;
+	text-transform: uppercase;
+	font-weight: $weight;
+}

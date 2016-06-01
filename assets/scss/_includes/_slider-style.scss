@@ -1,0 +1,53 @@
+/********* RESET SLICK THEME *********/
+.slick-dots li button {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.slick-dots li button:before {
+	content: '';
+}
+
+.slick-dots li.slick-active button {
+	background-color: #e64a19;
+}
+
+.slick-dots {
+	position: static;
+	padding: 15px 0 30px;
+		@media (min-width: $smscr) {
+			padding: 22px 0 40px;
+		}
+		@media (min-width: $mdscr) {
+			padding: 32px 0 60px;
+		}
+		@media (min-width: $lgscr) {
+			padding: 42px 0 70px;
+		}
+}
+
+.slick-slider {
+	margin-bottom: 0;
+}
+
+
+.slick-dots li {
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 5px;
+}
+
+.prev-arrow {
+    position: absolute;
+    left: -30px;
+    top: 25%;
+}
+
+.next-arrow {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+}

@@ -1,0 +1,43 @@
+.our-team {
+	text-align: center;
+	padding: 95px 0 118px;
+	@media (max-width: $smscr - 1) {
+		padding: 60px 0 60px;
+	}
+}
+
+.team-headline {
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 34px;
+	margin: 0;
+	padding: 0 0 46px 0;
+}
+
+.team-description {
+	max-width: 760px;
+	margin: 0 auto;
+}
+
+.member {
+	padding: 89px 0 0 0;
+	line-height: 34px;
+	&__img {
+		height: 109px;
+	}
+	&__name {
+		margin: 0;
+		padding: 46px 0 4px;
+		@include bold-upper(700);
+		@media (max-width: $smscr - 1) {
+			padding: 10px 0 0;
+		}
+	}
+	&__position {
+		font-size: 15px;
+		margin: 0;
+	}
+	@media (max-width: $smscr - 1) {
+		padding: 40px 0 0 0;
+	}
+}

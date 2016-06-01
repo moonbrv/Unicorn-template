@@ -1,0 +1,44 @@
+.quote-twitter {
+	padding: 30px 0;
+	text-align: center;
+	&__icon {
+		color: #222;
+		font-size: 30px;
+		padding-bottom: 48px;
+	}
+	&__face {
+		width: 62px;
+		height: 62px;
+		display: block;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+	&__txt {
+		font-size: 20px;
+		line-height: 38px;
+		margin: 0 auto;
+		padding: 25px 0 10px;
+		width: 100%;
+		@media (min-width: $xsscr) {
+			max-width: 400px;
+			padding: 34px 0 18px;
+		}
+		@media (min-width: $smscr) {
+			max-width: 600px;
+		}
+		@media (min-width: $mdscr) {
+			max-width: 830px;
+		}
+	}
+	&__author {
+		font-weight: 700;
+		line-height: 38px;
+		@include no-dec-link(#222);
+	}
+	@media (min-width: $smscr) {
+		padding: 40px 0 50px;
+	}
+	@media (min-width: $mdscr) {
+		padding: 70px 0 88px;
+	}
+}

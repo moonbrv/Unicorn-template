@@ -1,0 +1,25 @@
+.clients {
+	background-color: #efefef;
+	padding-bottom: 20px;
+	@media (min-width: $smscr) {
+		padding-bottom: 40px;
+	}
+	@media (min-width: $mdscr) {
+		padding-bottom: 70px;
+	}
+	@media (min-width: $lgscr) {
+		padding-bottom: 110px;
+	}
+}
+.clients-card__img {
+	margin: 0 auto;
+}
+
+.clients-headline {
+	margin: 0;
+	padding: 65px 0 34px;
+	text-align: center;
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 34px;
+}

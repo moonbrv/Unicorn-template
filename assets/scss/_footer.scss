@@ -1,0 +1,154 @@
+footer {
+	font-size: 14px;
+	line-height: 24px;
+	background-color: $txt-dark;
+	color: #999;
+	padding: 68px 0 30px 0;
+}
+
+.footer-contacts {
+	@media (min-width: $mdscr) {
+		max-width: 455px;
+	}
+}
+.footer-headline {
+	@include bold-upper(700, $txt-light);
+	font-size: 22px;
+	line-height: 38px;
+	margin: 0;
+}
+
+.footer-description {
+	margin: 0;
+	padding: 22px 0 35px 0;
+}
+
+%input-areas {
+	padding: 0;
+	border: none;
+	border-bottom: 1px solid rgba(71, 71, 71, 0.4);
+	background-color: transparent;
+}
+
+%small-input-areas {
+	width: 100%;
+	margin: 0 auto 10px 0;
+	@media (min-width: $smscr) {
+		width: 48%;
+		//margin-bottom: 0;
+	}
+	@media (min-width: $mdscr) {
+		width: 45%;
+	}
+}
+
+.feedback {
+	position: relative;
+	&__email,
+	&__subject,
+	&__message {
+		@extend %input-areas;
+	}
+
+	&__email {
+		@extend %small-input-areas;
+		@media (min-width: $smscr) {
+			float: left;
+		}
+		
+	}
+
+	&__subject {
+		@extend %small-input-areas;
+		@media (min-width: $smscr) {
+			float: right;	
+		}
+	}
+	
+
+	&__message {
+		display: block;
+		width: 100%;
+		resize: none;
+		overflow: hidden;
+		max-height: 100px;
+	}
+	&__submit {
+		background-color: transparent;
+		border: none;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+.footer-nav {
+	&__headline {
+		@include bold-upper(600, #ddd);
+		font-size: 15px;
+		margin: 0;
+		padding-bottom: 28px;
+	}
+}
+
+.footer-nav-list {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-nav-list-item {
+	&__link {
+		display: block;
+		@include no-dec-link(#999);
+	}
+}
+
+.footer-additional-info {
+	border-top: 1px solid rgba(71, 71, 71, 0.4);
+	margin-top: 15px;
+	padding-top: 26px;
+}
+
+.copyright {
+	@media (min-width: $smscr) {
+		vertical-align: middle;
+		display: inline-block;
+		width: 59%;
+		text-align: left;
+	}
+	color: #aaa;
+	display: block;
+	text-align: center;
+}
+
+.info-nav {
+	@media (min-width: $smscr) {
+		vertical-align: middle;
+		display: inline-block;
+		width: 40%;
+		text-align: right;
+	}
+	display: block;
+	text-align: center;
+}
+
+.info-nav-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.info-nav-list-item {
+	display: inline-block;
+	&__link {
+		@include no-dec-link(#aaa);
+		text-transform: uppercase;
+		display: block;
+		font-size: 13px;
+	}
+	
+	padding-left: 25px;
+	&:first-child {
+		padding-left: 0;
+	}
+}

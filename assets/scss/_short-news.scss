@@ -1,0 +1,27 @@
+.short-news {
+	background-color: #efefef;
+	&__item {
+		border-left: 6px solid $txt-dark;
+		margin: 75px 0 69px;
+		padding: 3px 0 3px 18px;
+	}
+	&__headline {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 33px;
+		color: #222;
+		margin: 0;
+	}
+	&__theme,
+	&__date {
+		color: #555;
+		font-size: 14px;
+		line-height: 33px;
+		margin: 0;
+	}
+	&__theme {
+		&:after {
+			content: ' / ';
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.facts {
+	background: #fff url('../img/facts-bg-lg.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 60px 0 80px;
+		&:after {
+		content: ' ';
+		display: block;
+		width: 75px;
+		height: 7px;
+		background-color: #e64a19;
+		margin: 0 auto;
+	}
+	@media (min-width: $mdscr) {
+		padding: 82px 0 138px;
+	}
+}
+
+.facts-headline {
+	text-align: center;
+	font-size: 27px;
+	font-weight: 700;
+	color: $txt-light;
+	padding-bottom: 50px;
+}
+
+.facts-wrapper {
+	background-color: rgba(255, 255, 255, 0.34);
+	max-width: 280px;
+	margin: 0 auto;
+	padding: 35px 0 38px 0;
+	@media (min-width: $xsscr) {
+		max-width: 400px;
+	}
+	@media (min-width: $smscr) {
+		max-width: 600px;
+	}
+	@media (min-width: $mdscr) {
+		max-width: 830px;
+	}
+}
+
+.fact-item {
+	text-align: center;
+	color: $txt-light;
+	line-height: 34px;
+	padding: 15px 0;
+	&__number {
+		font-size: 27px;
+		font-weight: 700;
+		margin: 0;
+		padding-bottom: 15px;
+		&:after {
+			content:' ';
+			display: block;
+			width: 75px;
+			height: 4px;
+			background-color: #4d4c4b;
+			margin: 17px auto -4px;
+			
+		}
+	}
+	&__name {
+		font-size: 24px;
+	}
+}
