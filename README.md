@@ -1,6 +1,6 @@
 # Unicorn template Markup
 
-It is my version of markup of of [this template](http://graphicburger.com/unicorn-psd-template/).
+It is my version of markup of [this template](http://graphicburger.com/unicorn-psd-template/).
 
 In this project I did use:
 - Gulp
