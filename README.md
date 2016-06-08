@@ -10,7 +10,7 @@ In this project I did use:
 - Sass
 - Bootstrap
 
-For using it:
+For building project:
 
 1. Download or Clone repository
 2. Enter in folder in terminal
