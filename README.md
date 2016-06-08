@@ -1,4 +1,4 @@
-# Unicorn template responsive Markup
+##"Unicorn" template responsive markup
 
 This is my version of markup of [this template](http://graphicburger.com/unicorn-psd-template/).
 
