@@ -1,6 +1,6 @@
-# Unicorn template Markup
+# Unicorn template responsive Markup
 
-It is my version of markup of [this template](http://graphicburger.com/unicorn-psd-template/).
+This is my version of markup of [this template](http://graphicburger.com/unicorn-psd-template/).
 
 [Try demo in browser](http://moonbrv.github.io/unicorn-template)
 
