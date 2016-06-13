@@ -4,7 +4,7 @@ This is my realisation of [this template](http://graphicburger.com/unicorn-psd-t
 
 [Try demo in browser](http://moonbrv.github.io/unicorn-template)
 
-In this project I did use:
+In this project I used:
 - Gulp
 - BrowserSync
 - Sass
