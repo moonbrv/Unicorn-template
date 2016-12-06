@@ -1,0 +1,26 @@
+{
+  "name": "unicorn-template",
+  "version": "0.1.0",
+  "dependencies": {
+    "bootstrap-sass": {
+      "version": "3.3.7",
+      "from": "bootstrap-sass@latest",
+      "resolved": "https://registry.npmjs.org/bootstrap-sass/-/bootstrap-sass-3.3.7.tgz"
+    },
+    "font-awesome": {
+      "version": "4.7.0",
+      "from": "font-awesome@latest",
+      "resolved": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+    },
+    "jquery": {
+      "version": "1.11.3",
+      "from": "jquery@1.11.3",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-1.11.3.tgz"
+    },
+    "slick-carousel": {
+      "version": "1.6.0",
+      "from": "slick-carousel@latest",
+      "resolved": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz"
+    }
+  }
+}
