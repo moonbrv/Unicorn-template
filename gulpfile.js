@@ -59,7 +59,12 @@ gulp.task('sass', function(){
 	return gulp.src(paths.style_src)
 	.pipe(sourcemaps.init())
 	.pipe(sass(sassOptions).on('error', sass.logError))
-	.pipe(purify([path.join(__dirname, 'assets', '*.html')], {info: true}))
+	.pipe(purify([
+		path.join(__dirname, 'assets', '*.html'),
+		'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
+		'node_modules/slick-carousel/slick/slick.js',
+		'assets/js/*.js'
+		], {info: true}))
 	.pipe(concat('main.css'))
 	.pipe(postcss([
 		autoprefixer(),
