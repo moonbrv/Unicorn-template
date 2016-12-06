@@ -4,7 +4,9 @@
   "description": "MarkUp for testing my skills",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"clean": "rimraf public",
+		"prestart": "npm run clean",
+    "start": "gulp"
   },
   "author": "Dmitry Palamarchuk",
   "license": "MIT",
